@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Aleksandra973/algoritms#readme",
   "dependencies": {
     "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "benchmarkjs": "^0.1.8"
   }
 }
