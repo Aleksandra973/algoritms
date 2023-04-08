@@ -1,6 +1,18 @@
 {
     "configurations": [
         {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "stack.js"
+            ],
+            "runtimeExecutable": "node",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "type": "node",
             "name": "vscode-jest-tests.v2",
             "request": "launch",
